@@ -15,10 +15,10 @@ class Person {
 
     public function showAnagraphical(){
         echo "<ul>";
-        echo "<li>$name</li>";
-        echo "<li>$surnname</li>";
-        echo "<li>$dateOfBirth</li>";
-        echo "<li>$gender</li>";
+        echo "<li>{$this->name}</li>";
+        echo "<li>{$this->surname}</li>";
+        echo "<li>{$this->dateOfBirth}</li>";
+        echo "<li>{$this->gender}</li>";
         echo "</ul>";
     }
 }
